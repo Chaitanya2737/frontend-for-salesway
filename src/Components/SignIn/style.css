@@ -1,0 +1,92 @@
+body {
+  
+}
+.signup {
+  background: rgb(164,149,149);
+  background: linear-gradient(105deg, rgb(133 153 185) 0%, rgb(133 153 185) 51%, rgb(177 132 177) 84%);
+  padding: 0;
+  margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+    height: 100vh; 
+    margin: 0 auto; 
+}
+
+.wrapper-content{
+  width: 50%;
+}
+
+.sign-content{
+  width: 50%;
+}
+
+.signup-icon{
+   color: white;
+   width: fit-content;
+   display: flex;
+   justify-content: space-between;
+   width: 50%;
+   padding-top: 40px;
+}
+
+.signup-icon span {
+  border: 1px solid rgb(255, 255, 255);
+  width: 29%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 13px;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  margin-top: 20px;
+  color: white;
+}
+
+.divider::before,
+.divider::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid rgb(255, 255, 255); /* Adjust border color and style as needed */
+}
+
+.divider-text {
+  margin: 0 10px; /* Adjust margin as needed */
+}
+
+.input {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.input > label {
+  margin-bottom: 15px;
+  color:white ;
+}
+
+
+.button{
+  width: 50%;
+ margin-top:25px ;
+ height:  45px;
+ background-color: #ed6ec2;
+ border: none;
+ border-radius: 13px;
+ color: white;
+ font-size: 18px;
+}
+
+.transfer-to-login {
+  /* Add padding around the text */
+  padding: 10px;
+}
+
+.login-link {
+  /* Add margin between the text and the link */
+  margin-left: 10px; /* Adjust as needed */
+}

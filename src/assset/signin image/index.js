@@ -1,0 +1,1 @@
+export {default as signUp } from "./Screenshot 2024-05-12 155825.png"
